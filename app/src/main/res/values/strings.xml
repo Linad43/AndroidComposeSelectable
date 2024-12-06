@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AndroidComposeSelectable</string>
+    <string name="title_activity_first_question">FirstQuestion</string>
+    <string name="title_activity_second_question">SecondQuestion</string>
+    <string name="title_activity_trird_question">TrirdQuestion</string>
+    <string name="title_activity_result">ResultActivity</string>
+</resources>

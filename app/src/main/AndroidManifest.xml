@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AndroidComposeSelectable"
+        tools:targetApi="31">
+        <activity
+            android:name=".ui.theme.ResultActivity"
+            android:exported="false"
+            android:label="@string/title_activity_result"
+            android:theme="@style/Theme.AndroidComposeSelectable" />
+        <activity
+            android:name=".TrirdQuestion"
+            android:exported="false"
+            android:label="@string/title_activity_trird_question"
+            android:theme="@style/Theme.AndroidComposeSelectable" />
+        <activity
+            android:name=".SecondQuestion"
+            android:exported="false"
+            android:label="@string/title_activity_second_question"
+            android:theme="@style/Theme.AndroidComposeSelectable" />
+        <activity
+            android:name=".FirstQuestion"
+            android:exported="false"
+            android:label="@string/title_activity_first_question"
+            android:theme="@style/Theme.AndroidComposeSelectable" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AndroidComposeSelectable">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
